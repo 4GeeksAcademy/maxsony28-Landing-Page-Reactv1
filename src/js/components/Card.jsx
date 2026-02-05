@@ -1,7 +1,7 @@
 export function Card() {
     return (
-        <div className="col-12 col-md-3 mt-2">
-            <div class="card">
+        <div className="col-12 col-md-3 mt-3">
+            <div class="card text-center">
                 <img src={`https://picsum.photos/500/325?random=${Math.floor(Math.random() * 100 + 1)}`} class="card-img-top" alt="..." />
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>

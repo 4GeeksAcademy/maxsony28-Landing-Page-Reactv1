@@ -5,6 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./Navbar";
 import { Jumbotron } from "./Jumbotrom";
 import { CardList } from "./CardList";
+import Footer from "./Footer";
 //create your first component
 const Home = () => {
 	return (
@@ -12,6 +13,8 @@ const Home = () => {
 			<Navbar />
 			<Jumbotron />
 			<CardList />
+			<Footer />
+
 		</>
 	);
 };
